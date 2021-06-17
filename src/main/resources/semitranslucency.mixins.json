@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ims.semitranslucency.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinInGameHud",
+    "MixinDrawableHelper"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
