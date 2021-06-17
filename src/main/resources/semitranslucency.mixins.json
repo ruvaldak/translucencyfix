@@ -4,7 +4,6 @@
   "package": "net.ims.semitranslucency.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinInGameHud",
     "MixinDrawableHelper"
   ],
   "client": [
