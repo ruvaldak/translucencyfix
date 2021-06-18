@@ -8,8 +8,12 @@ on: [push, pull_request]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
-
+    on:
+      push:
+        branches: [ master, forge-1.16.5 ]
+      pull_request:
+        branches: [ master, forge-1.16.5 ]
+    
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 16
