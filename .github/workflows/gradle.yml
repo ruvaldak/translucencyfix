@@ -10,7 +10,10 @@ on:
     branches: [ master, forge-1.16.5 ]
 
 jobs:
-  build:    
+  build:
+
+    runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 16
