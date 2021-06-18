@@ -71,3 +71,7 @@ publishing {
         // mavenLocal()
     }
 }
+
+loom {
+    mixinConfig "semitranslucency.mixins.json"
+}
