@@ -1,4 +1,4 @@
-# TranslucencyFix
+# Semitranslucency Fix
 
 Fixes GUI+HUD translucency support in Minecraft 1.16.5.
 
