@@ -5,9 +5,13 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ master, forge-1.16.5 ]
+    branches:
+    - master
+    - forge-1.16.5
   pull_request:
-    branches: [ master, forge-1.16.5 ]
+    branches:
+    - master
+    - forge-1.16.5
 
 jobs:
   build:
