@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "semitranslucency",
+  "version": "${version}",
+  "name": "Semi Translucency",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/semitranslucency/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ims.semitranslucency.Semitranslucency"
+    ]
+  },
+  "mixins": [
+    "semitranslucency.mixins.json"
+  ]
+}
