@@ -1,18 +1,15 @@
 # This workflow will build a Java project with Gradle
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
-name: Java CI with Gradle
+name: Canary
 
 on:
   push:
     branches:
     - master
-    - forge-1.16.5
-    - experimental
   pull_request:
     branches:
     - master
-    - forge-1.16.5
 
 jobs:
   build:
@@ -24,7 +21,7 @@ jobs:
     - name: Set up JDK 16
       uses: actions/setup-java@v1
       with:
-        java-version: '16'
+        java-version: '17'
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
