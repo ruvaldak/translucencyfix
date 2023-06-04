@@ -26,8 +26,18 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Upload build artifacts
+    - name: Upload Fabric build artifacts
       uses: actions/upload-artifact@v1
       with:
-        name: build-artifacts
-        path: build/libs
+        name: TranslucencyFix-Fabric
+        path: fabric/build/libs
+    - name: Upload Quilt build artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: TranslucencyFix-Quilt
+        path: quilt/build/libs
+    - name: Upload Forge build artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: TranslucencyFix-Forge
+        path: forge/build/libs
