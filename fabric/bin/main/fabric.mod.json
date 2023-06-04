@@ -11,7 +11,7 @@
     "sources": "https://github.com/ruvaldak/Semitranslucency"
   },
   "license": "MIT",
-  "icon": "assets/translucencyfix/icon.png",
+  "icon": "assets/translucencyfix/icon.jpeg",
   "environment": "*",
   "entrypoints": {
     "main": [
