@@ -8,6 +8,7 @@ on:
     branches:
     - master
     - forge-1.16.5
+    - experimental
   pull_request:
     branches:
     - master
