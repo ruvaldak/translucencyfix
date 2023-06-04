@@ -2,16 +2,15 @@
   "schemaVersion": 1,
   "id": "translucencyfix",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Translucency Fix",
+  "description": "enables translucency for HUD and GUIs in Minecraft",
   "authors": [
-    "Me!"
+    "ruvaldak"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ruvaldak/Semitranslucency"
   },
-  "license": "Insert License Here",
+  "license": "MIT",
   "icon": "assets/translucencyfix/icon.png",
   "environment": "*",
   "entrypoints": {
