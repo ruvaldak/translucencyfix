@@ -1,4 +1,4 @@
-<img width="200" src="common/src/main/resources/assets/translucencyfix/icon.jpeg" alt="icon" align="right">
+<img width="200" src="common/src/main/resources/assets/translucencyfix/icon.png" alt="icon" align="right">
 <div align="left">
 <h1>Translucency Fix</h1>
 <h2><i>REQUIRES <a href="https://modrinth.com/mod/architectury-api">ARCHITECTURY API</a></i></h2>
