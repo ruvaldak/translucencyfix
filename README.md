@@ -3,7 +3,7 @@
 <h1>Translucency Fix</h1>
 </div>
 
-[![Canary](https://github.com/ruvaldak/translucencyfix/actions/workflows/gradle.yml/badge.svg)](https://github.com/ruvaldak/translucencyfix/actions/workflows/gradle.yml) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/ruvaldak/translucencyfix/latest/master) ![GitHub issues by-label](https://img.shields.io/github/issues/ruvaldak/translucencyfix/help%20wanted) <br/>
+[![Canary](https://github.com/ruvaldak/translucencyfix/actions/workflows/gradle.yml/badge.svg)](https://github.com/ruvaldak/translucencyfix/actions/workflows/gradle.yml) [![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/ruvaldak/translucencyfix/latest/master)](https://github.com/ruvaldak/translucencyfix/commits) [![GitHub issues by-label](https://img.shields.io/github/issues/ruvaldak/translucencyfix/help%20wanted)](https://github.com/ruvaldak/translucencyfix/issues) <br/>
 [![Modrinth Link](https://img.shields.io/badge/-Modrinth-brightgreen)](https://modrinth.com/mod/translucencyfix) [![CurseForge Link](https://img.shields.io/badge/-CurseForge-orange)](https://legacy.curseforge.com/minecraft/mc-mods/translucencyfix) ![Modrinth Version](https://img.shields.io/modrinth/v/xp45cyDI) ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/xp45cyDI) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/xp45cyDI)
 
 Fixes GUI and HUD translucency support in Minecraft, allowing resource packs like <a href="https://modrinth.com/resourcepack/aquahud">AquaHUD</a> to work properly. Requires [Architectury API](https://modrinth.com/mod/architectury-api).
