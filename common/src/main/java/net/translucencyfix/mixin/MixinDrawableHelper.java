@@ -1,4 +1,4 @@
-package net.ims.semitranslucency.mixin;
+package net.translucencyfix.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.DrawableHelper;
@@ -16,3 +16,4 @@ public class MixinDrawableHelper {
         RenderSystem.defaultBlendFunc();
     }
 }
+ 
