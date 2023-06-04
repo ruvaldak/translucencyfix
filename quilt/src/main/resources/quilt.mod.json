@@ -15,7 +15,7 @@
       "sources": "https://github.com/ruvaldak/Semitranslucency"
     },
     "license": "MIT",
-    "icon": "assets/translucencyfix/icon.jpeg",
+    "icon": "assets/translucencyfix/icon.icon",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
