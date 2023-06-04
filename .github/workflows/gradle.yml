@@ -31,13 +31,8 @@ jobs:
     - name: Upload Fabric build artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: TranslucencyFix-Fabric
+        name: TranslucencyFix-Fabric-Quilt
         path: ./fabric/build/libs
-    - name: Upload Quilt build artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: TranslucencyFix-Quilt
-        path: ./quilt/build/libs
     - name: Upload Forge build artifacts
       uses: actions/upload-artifact@v2
       with:
