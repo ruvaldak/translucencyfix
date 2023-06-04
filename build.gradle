@@ -11,7 +11,7 @@ subprojects {
     apply plugin: "dev.architectury.loom"
 
     loom {
-        silentMojangMappingsLicense()
+        //silentMojangMappingsLicense()
     }
 
     dependencies {
