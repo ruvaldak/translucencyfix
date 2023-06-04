@@ -13,7 +13,7 @@ public class MixinDrawableHelper {
     @Inject(method = "drawTexturedQuad(Lorg/joml/Matrix4f;IIIIIFFFF)V", at = @At("HEAD"))
     private static void drawTexturedQuad(CallbackInfo ci) {
         RenderSystem.enableBlend();
-        RenderSystem.defaultBlendFunc();
+        //RenderSystem.defaultBlendFunc();
     }
 }
  
