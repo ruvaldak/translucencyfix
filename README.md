@@ -14,4 +14,5 @@ Fixes GUI and HUD translucency support in Minecraft, allowing resource packs lik
 
 
 ### Credits
-> IMS212 for the original code.
+> [IMS212](https://github.com/IMS212) for the original code. <br/>
+> [QuiltMC](https://github.com/QuiltMC/art/blob/master/stickers/skeuomapple.png) for the icon art
