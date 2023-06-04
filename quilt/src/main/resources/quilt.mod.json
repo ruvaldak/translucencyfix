@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "mixin": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "translucencyfix.mixins.json",
+    "translucencyfix-common.mixins.json"
   ],
   "quilt_loader": {
     "group": "${group}",
-    "id": "examplemod",
+    "id": "translucencyfix",
     "version": "${version}",
     "name": "Example Mod",
     "description": "This is an example description! Tell everyone what your mod is about!",
@@ -15,12 +15,12 @@
       "sources": "https://github.com/architectury/architectury-templates"
     },
     "license": "Insert License Here",
-    "icon": "assets/examplemod/icon.png",
+    "icon": "assets/translucencyfix/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
       "init": [
-        "net.examplemod.quilt.ExampleModQuilt"
+        "net.translucencyfix.quilt.translucencyfixQuilt"
       ]
     },
     "depends": [

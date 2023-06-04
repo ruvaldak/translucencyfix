@@ -1,6 +1,6 @@
-package net.examplemod.fabric;
+package net.translucencyfix.fabric;
 
-import net.examplemod.ExampleExpectPlatform;
+import net.translucencyfix.ExampleExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;

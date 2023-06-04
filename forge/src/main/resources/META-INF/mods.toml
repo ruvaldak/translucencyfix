@@ -4,7 +4,7 @@ loaderVersion = "[45,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "translucencyfix"
 version = "${version}"
 displayName = "Example Mod"
 authors = "Me!"
@@ -13,21 +13,21 @@ This is an example description! Tell everyone what your mod is about!
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.translucencyfix]]
 modId = "forge"
 mandatory = true
 versionRange = "[45,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.translucencyfix]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.4,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.translucencyfix]]
 modId = "architectury"
 mandatory = true
 versionRange = "[8.1.79,)"

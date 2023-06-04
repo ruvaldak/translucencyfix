@@ -1,7 +1,7 @@
-package net.examplemod.fabric;
+package net.translucencyfix.forge;
 
-import net.examplemod.ExampleExpectPlatform;
-import org.quiltmc.loader.api.QuiltLoader;
+import net.translucencyfix.ExampleExpectPlatform;
+import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
@@ -10,6 +10,6 @@ public class ExampleExpectPlatformImpl {
      * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
      */
     public static Path getConfigDirectory() {
-        return QuiltLoader.getConfigDir();
+        return FMLPaths.CONFIGDIR.get();
     }
 }
