@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "translucencyfix-fabric",
+  "id": "translucencyfix",
   "version": "${version}",
   "name": "Translucency Fix",
   "description": "enables translucency for HUD and GUIs in Minecraft",
@@ -24,7 +24,7 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.4",
-    "architectury": ">=8.1.79"
+    "minecraft": ">=1.19.3",
+    "architectury": ">=7.1.78"
   }
 }
