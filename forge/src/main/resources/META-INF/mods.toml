@@ -4,7 +4,7 @@ issueTrackerURL = "https://github.com/ruvaldak/Semitranslucency/issues"
 license = "MIT"
 
 [[mods]]
-modId = "translucencyfix-forge"
+modId = "translucencyfix"
 version = "${version}"
 displayName = "Translucency Fix"
 logoFile="assets/translucencyfix/icon.png"

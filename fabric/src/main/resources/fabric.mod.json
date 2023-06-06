@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "translucencyfix-fabric",
+  "id": "translucencyfix",
   "version": "${version}",
   "name": "Translucency Fix",
   "description": "enables translucency for HUD and GUIs in Minecraft",
