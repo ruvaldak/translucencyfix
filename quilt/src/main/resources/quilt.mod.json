@@ -1,7 +1,6 @@
 {
   "schema_version": 1,
   "mixin": [
-    "translucencyfix.mixins.json",
     "translucencyfix-common.mixins.json"
   ],
   "quilt_loader": {

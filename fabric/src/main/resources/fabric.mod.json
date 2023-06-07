@@ -16,7 +16,6 @@
   "entrypoints": {
   },
   "mixins": [
-    "translucencyfix.mixins.json",
     "translucencyfix-common.mixins.json"
   ],
   "depends": {
