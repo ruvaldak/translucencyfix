@@ -22,13 +22,11 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Upload Fabric build artifacts
-      uses: actions/upload-artifact@v2
+    - name: Upload Fabric build artifact
+      uses: actions/upload-artifact@v3
       with:
-        name: TranslucencyFix-Fabric-Quilt
-        path: ./fabric/build/libs
-    - name: Upload Forge build artifacts
-      uses: actions/upload-artifact@v2
+        path: ./fabric/build/libs/translucencyfix?fabric?quilt?.jar
+    - name: Upload Forge build artifact
+      uses: actions/upload-artifact@v3
       with:
-        name: TranslucencyFix-Forge
-        path: ./forge/build/libs
+        path: ./forge/build/libs/translucencyfix?forge?.jar
