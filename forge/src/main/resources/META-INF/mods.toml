@@ -27,10 +27,3 @@ mandatory = true
 versionRange = "[1.19.3,)"
 ordering = "NONE"
 side = "BOTH"
-
-[[dependencies.translucencyfix]]
-modId = "architectury"
-mandatory = true
-versionRange = "[7.1.78,)"
-ordering = "AFTER"
-side = "BOTH"

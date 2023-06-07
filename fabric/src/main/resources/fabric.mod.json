@@ -14,17 +14,12 @@
   "icon": "assets/translucencyfix/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.translucencyfix.fabric.translucencyfixFabric"
-    ]
   },
   "mixins": [
     "translucencyfix.mixins.json",
     "translucencyfix-common.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.19.3",
-    "architectury": ">=7.1.78"
+    "minecraft": ">=1.19.3"
   }
 }

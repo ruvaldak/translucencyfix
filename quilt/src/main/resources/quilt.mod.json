@@ -19,26 +19,11 @@
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
-      "init": [
-        "net.translucencyfix.quilt.translucencyfixQuilt"
-      ]
     },
     "depends": [
       {
-        "id": "quilt_loader",
-        "version": "*"
-      },
-      {
-        "id": "quilt_base",
-        "version": "*"
-      },
-      {
         "id": "minecraft",
         "version": ">=1.19.3"
-      },
-      {
-        "id": "architectury",
-        "version": ">=7.1.78"
       }
     ]
   }
