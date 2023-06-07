@@ -25,8 +25,8 @@ jobs:
     - name: Upload Fabric build artifact
       uses: actions/upload-artifact@v3
       with:
-        path: ./fabric/build/libs/translucencyfix?fabric?quilt?.jar
+        path: ./fabric/build/libs/translucencyfix*fabric*quilt*.jar
     - name: Upload Forge build artifact
       uses: actions/upload-artifact@v3
       with:
-        path: ./forge/build/libs/translucencyfix?forge?.jar
+        path: ./forge/build/libs/translucencyfix*forge*.jar
