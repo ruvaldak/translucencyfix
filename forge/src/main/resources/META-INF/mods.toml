@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-issueTrackerURL = "https://github.com/ruvaldak/Semitranslucency/issues"
+issueTrackerURL = "https://github.com/ruvaldak/translucencyfix/issues"
 license = "MIT"
 
 [[mods]]

@@ -8,15 +8,13 @@
     "ruvaldak"
   ],
   "contact": {
-    "sources": "https://github.com/ruvaldak/Semitranslucency"
+    "sources": "https://github.com/ruvaldak/translucencyfix"
   },
   "license": "MIT",
   "icon": "assets/translucencyfix/icon.png",
   "environment": "*",
-  "entrypoints": {
-  },
+  "entrypoints": {},
   "mixins": [
-    "translucencyfix.mixins.json",
     "translucencyfix-common.mixins.json"
   ],
   "depends": {

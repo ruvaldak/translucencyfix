@@ -4,9 +4,10 @@
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.8",
   "client": [
+    "MixinDrawableHelper"
   ],
   "mixins": [
-    "MixinDrawableHelper"
+    
   ],
   "injectors": {
     "defaultRequire": 1
