@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[41,)"
+loaderVersion = "[35,)"
 issueTrackerURL = "https://github.com/ruvaldak/Semitranslucency/issues"
 license = "MIT"
 
@@ -17,20 +17,20 @@ enables translucency for HUD and GUIs in Minecraft
 [[dependencies.translucencyfix]]
 modId = "forge"
 mandatory = true
-versionRange = "[41,)"
+versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.translucencyfix]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19,)"
+versionRange = "[1.16.5,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.translucencyfix]]
 modId = "architectury"
 mandatory = true
-versionRange = "[5.14.76,)"
+versionRange = "[1.32.66,)"
 ordering = "AFTER"
 side = "BOTH"

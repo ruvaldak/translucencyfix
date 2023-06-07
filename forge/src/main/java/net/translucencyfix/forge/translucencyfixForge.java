@@ -1,6 +1,6 @@
 package net.translucencyfix.forge;
 
-import dev.architectury.platform.forge.EventBuses;
+import me.shedaniel.architectury.platform.forge.EventBuses;
 import net.translucencyfix.translucencyfix;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

@@ -34,11 +34,11 @@
       },
       {
         "id": "minecraft",
-        "version": ">=1.19"
+        "version": ">=1.16.5"
       },
       {
         "id": "architectury",
-        "version": ">=5.14.76"
+        "version": ">=1.32.66"
       }
     ]
   }
