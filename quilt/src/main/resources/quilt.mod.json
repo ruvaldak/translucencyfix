@@ -7,22 +7,25 @@
     "group": "${group}",
     "id": "translucencyfix",
     "version": "${version}",
-    "name": "Translucency Fix",
-    "description": "enables translucency for HUD and GUIs in Minecraft",
-    "authors": ["ruvaldak"],
-    "contact": {
-      "sources": "https://github.com/ruvaldak/translucencyfix"
+    "metadata": {
+      "name": "Translucency Fix",
+      "description": "enables translucency for HUD and GUIs in Minecraft",
+      "authors": [
+        "ruvaldak"
+      ],
+      "contact": {
+        "sources": "https://github.com/ruvaldak/translucencyfix"
+      },
+      "license": "MIT",
+      "icon": "assets/translucencyfix/icon.png"
     },
-    "license": "MIT",
-    "icon": "assets/translucencyfix/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
-    "environment": "*",
     "entrypoints": {
     },
     "depends": [
       {
         "id": "minecraft",
-        "version": ">=1.19.3"
+        "version": ">=1.20.0"
       }
     ]
   }
