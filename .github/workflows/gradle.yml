@@ -11,24 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
+    - uses: actions/checkout@v4
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
       with:
-        java-version: 17
+        java-version: 21
         distribution: temurin
         java-package: jdk
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Setup Gradle
-      uses: gradle/gradle-build-action@v2
+      uses: gradle/gradle-build-action@v3
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Upload Fabric build artifact
-      uses: actions/upload-artifact@v3
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
       with:
-        path: ./fabric/build/libs/translucencyfix*fabric*quilt*.jar
-    - name: Upload Forge build artifact
-      uses: actions/upload-artifact@v3
-      with:
-        path: ./forge/build/libs/translucencyfix*forge*.jar
+        path: ./fabric/build/libs
