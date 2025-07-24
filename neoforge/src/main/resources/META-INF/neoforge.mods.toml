@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[46,)"
+loaderVersion = "[4,)"
 issueTrackerURL = "https://github.com/ruvaldak/translucencyfix/issues"
 license = "MIT"
 
@@ -14,10 +14,13 @@ enables translucency for HUD and GUIs in Minecraft
 '''
 #logoFile = ""
 
+[[mixins]]
+config = "translucencyfix-common.mixins.json"
+
 [[dependencies.translucencyfix]]
-modId = "forge"
+modId = "neoforge"
 mandatory = true
-versionRange = "[46,)"
+versionRange = "[21,)"
 ordering = "NONE"
 side = "BOTH"
 
